@@ -5,6 +5,8 @@ The application was built and tested using **Python 3.12**
 **How to run:**
 - pip install django
 - cd feedforward
+- python manage.py migrate (creates a fresh local database)
+- python manage.py createsuperuser (optional, for the admin page)
 - python manage.py runserver
 
 By default opens at http://127.0.0.1:8000/
